@@ -1,3 +1,9 @@
+function agradecer () {
+  alert ('Gracias por visitar mi tienda')
+}
+
+agradecer();
+
 // Inicializar variables
 let producto = '';
 let cantidad = 0;
@@ -36,3 +42,8 @@ do {
 } while (seguirComprando)
 
 alert('Ha comprado '+cantidadTotal+' productos y el total es: '+precioTotal);
+
+let comentarios = prompt ('Que te parece nuestros productos');
+alert('Gracias por comentar: '+comentarios);
+
+agradecer();
